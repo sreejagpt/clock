@@ -22,7 +22,7 @@ Program accepts input from stdin. Any formatting error detected in user input is
 
 
 #Example
-Sreejas-MacBook-Pro:clock sreeja$ ./go.sh
+<pre>Sreejas-MacBook-Pro:clock sreeja$ ./go.sh
 Welcome! Enter a time in the form hh:mm
 12:50
        h
@@ -33,5 +33,5 @@ o      .      o
    o       o
        o
 3:78
-[ERR] Time must be in the form hh:mm. Try again!
+[ERR] Time must be in the form hh:mm. Try again!</pre>
 
