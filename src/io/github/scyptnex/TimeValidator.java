@@ -1,12 +1,16 @@
 package io.github.scyptnex;
 
 public class TimeValidator {
-	public static boolean isValid(String time) {
+	public static ValidTime getValidTimeOrNull(String time) {
 		if (time.matches("^[0-9]{2}:[0-9]{2}$")){
 			String[] parts = time.split(":");
-			return Integer.parseInt(parts[0]) <= 23
-					&& Integer.parseInt(parts[1]) <= 59;
+			return timestampWithinBounds(parts[0], parts[1]) ? new ValidTime(time) : null;
 		}
-		return false;
+		return null;
+	}
+
+	private static boolean timestampWithinBounds(String hours, String minutes) {
+		return Integer.parseInt(hours) <= 23
+				&& Integer.parseInt(minutes) <= 59;
 	}
 }
