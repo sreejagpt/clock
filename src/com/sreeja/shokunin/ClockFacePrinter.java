@@ -1,4 +1,4 @@
-package io.github.scyptnex;
+package com.sreeja.shokunin;
 
 import java.util.HashMap;
 import java.util.Map;

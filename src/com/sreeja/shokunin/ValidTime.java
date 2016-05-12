@@ -1,4 +1,4 @@
-package io.github.scyptnex;
+package com.sreeja.shokunin;
 
 public class ValidTime {
 	private int hourPosition;

@@ -1,4 +1,4 @@
-package io.github.scyptnex;
+package com.sreeja.shokunin;
 
 public class TimeValidator {
 	public static ValidTime getValidTimeOrNull(String time) {
