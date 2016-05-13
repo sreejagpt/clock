@@ -16,7 +16,7 @@ public class ClockFacePrinter {
 	private static final Map<Integer, Integer> clockNumberToStringIndexMapper = resolveMap();
 
 	private static Map<Integer, Integer> resolveMap() {
-		Map<Integer, Integer> mapper = new HashMap<>();
+		Map<Integer, Integer> mapper = new HashMap<Integer, Integer>();
 		int lastKnownIndex = -1;
 		for (int i = 0; i <= 11; i++) {
 			lastKnownIndex = BASIC_CLOCK_FACE.indexOf("o", lastKnownIndex + 1);
