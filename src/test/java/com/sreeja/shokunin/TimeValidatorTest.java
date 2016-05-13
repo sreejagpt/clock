@@ -2,8 +2,8 @@ package com.sreeja.shokunin;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 @SuppressWarnings("Duplicates")
 public class TimeValidatorTest {

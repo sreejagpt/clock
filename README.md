@@ -12,26 +12,37 @@ Shokunin Challenge - Draw an analogue clock face.
 
 #Prerequisites
 - JVM (Java 1.8)
+- Gradle
+
+# Usage
+sh go.sh --help
+<pre>Usage: sh go.sh</pre>
 
 #Build & Run
-./go.sh
+sh go.sh
 Program accepts input from stdin. Any formatting error detected in user input is printed out to stderr. 
 
 #Clean
-./clean.sh
+sh clean.sh
 
 
 #Example
-<pre>Sreejas-MacBook-Pro:clock sreeja$ ./go.sh
+<pre>
+Sreejas-MacBook-Pro:clock sreeja$ sh go.sh
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
 Welcome! Enter a time in the form hh:mm
-12:50
+> Building 75% > :run12:35
        h
    o       o
- m           o
+ o           o
 o      .      o
  o           o
-   o       o
+   m       o
        o
-3:78
-[ERR] Time must be in the form hh:mm. Try again!</pre>
+> Building 75% > :run5:78
+[ERR] Time must be in the form hh:mm. Try again!
+</pre>
 
