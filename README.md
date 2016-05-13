@@ -20,6 +20,7 @@ sh go.sh --help
 
 #Build & Run
 sh go.sh
+
 Program accepts input from stdin. Any formatting error detected in user input is printed out to stderr. 
 
 #Clean
